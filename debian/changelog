@@ -1,0 +1,6 @@
+pakmaster (1.0) mantic; urgency=low
+
+  * Initial release of host-master
+  * Fixed an issue with the commands
+
+ -- Alexander Krefting <kakrefting@gmail.com>  Sun, 10 Mar 2024 12:45:00 +0200

@@ -1,0 +1,13 @@
+Source: pakmaster
+Section: utils
+Priority: optional
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.1.4
+
+Package: pakmaster
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, python3
+Description: Kurze Beschreibung des Pakets
+ Lange Beschreibung des Pakets, die
+ über mehrere Zeilen gehen kann.

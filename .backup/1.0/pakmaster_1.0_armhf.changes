@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 10 Mar 2024 12:45:00 +0200
+Source: pakmaster
+Binary: pakmaster
+Built-For-Profiles: noudeb
+Architecture: source armhf
+Version: 1.0
+Distribution: mantic
+Urgency: low
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Changed-By: Alexander Krefting <kakrefting@gmail.com>
+Description:
+ pakmaster  - Kurze Beschreibung des Pakets
+Changes:
+ pakmaster (1.0) mantic; urgency=low
+ .
+   * Initial release of host-master
+   * Fixed an issue with the commands
+Checksums-Sha1:
+ d0a584f44dffa656de37ec355b4fbbfbfcb282db 511 pakmaster_1.0.dsc
+ d53ea210d74b2d3680904956c37763c819459fd2 1797 pakmaster_1.0.tar.gz
+ 8c2d2d29612396bd9b8f66e487f37de103880879 5266 pakmaster_1.0_armhf.buildinfo
+ df65206629ed991b2bf34e374dd0bc2114be08d2 2160 pakmaster_1.0_armhf.deb
+Checksums-Sha256:
+ f6ab16ff0380a83a9a33863102c3e605523d741e0868434cccda2fe022ef6bc9 511 pakmaster_1.0.dsc
+ c92e98257cbbede9a87dfa856ab10cdff673109bb5e508ce3e7eb7db1620b23b 1797 pakmaster_1.0.tar.gz
+ f710e1cc59b9ac801585e3009d85f389a58db5da487a0cddd6863e40ecc7d0b3 5266 pakmaster_1.0_armhf.buildinfo
+ 7956d2f60525974d16da3f71976e637eefe3593839dc9e2de764e2abe6a1676a 2160 pakmaster_1.0_armhf.deb
+Files:
+ 1ec48d31b6070a17defd1c7ea5d9cd9d 511 utils optional pakmaster_1.0.dsc
+ 9708d7439733dd3d02c9580427fbb343 1797 utils optional pakmaster_1.0.tar.gz
+ ce7c0b2a07611e0ddaade5b691e7fcd7 5266 utils optional pakmaster_1.0_armhf.buildinfo
+ 9734b36e8d9071610b49cec76e31b5da 2160 utils optional pakmaster_1.0_armhf.deb

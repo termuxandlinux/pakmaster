@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+# Kopiere die Datei "aptx" in den /bin/-Ordner
+	mkdir -p $(CURDIR)/debian/pakmaster/bin
+	cp $(CURDIR)/pakmaster.py $(CURDIR)/debian/pakmaster/bin/pakmaster
